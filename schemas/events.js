@@ -9,15 +9,6 @@ export default {
       title: 'Event Name',
     },
     {
-      name: 'group',
-      type: 'reference',
-      to: [
-        {
-          type: 'groups',
-        },
-      ],
-    },
-    {
       name: 'description',
       type: 'richText',
       title: 'Description',
