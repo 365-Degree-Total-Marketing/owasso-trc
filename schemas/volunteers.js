@@ -46,6 +46,11 @@ export default {
       title: 'Email Address',
     },
     {
+      name: 'pass',
+      type: 'string',
+      title: 'Password',
+    },
+    {
       name: 'images',
       type: 'images',
       title: 'Image of Volunteer',
