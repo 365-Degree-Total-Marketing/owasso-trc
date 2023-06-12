@@ -1,4 +1,5 @@
 import images from './images'
+import levels from './log_options'
 
 export default {
   name: 'volunteers',
@@ -54,6 +55,13 @@ export default {
       name: 'images',
       type: 'images',
       title: 'Image of Volunteer',
+    },
+    {
+      name: 'roll',
+      type: 'string',
+      options: {
+        list: [...levels],
+      },
     },
   ],
 }
