@@ -58,5 +58,14 @@ export default {
       type: 'richText',
       title: 'Notes',
     },
+    {
+      title: 'Sale date',
+      name: 'saleDate',
+      type: 'datetime',
+      options: {
+        dateFormat: 'DD/MM/YYYY',
+        calendarTodayLabel: 'Today',
+      },
+    },
   ],
 }
