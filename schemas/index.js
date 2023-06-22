@@ -6,6 +6,7 @@ import levels from './levels'
 import richText from './richText'
 import sponsors from './sponsors'
 import sales from './event_sales'
+import join from './join'
 
 export const schemaTypes = [
   trc_general_info,
@@ -16,4 +17,5 @@ export const schemaTypes = [
   richText,
   sponsors,
   sales,
+  join,
 ]
